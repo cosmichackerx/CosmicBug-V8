@@ -2264,7 +2264,7 @@ case 'sound158':
 case 'sound159':
 case 'sound160':
 case 'sound161':
-GlobalTechInc_dev = await getBuffer(`https://github.com/DGXeon/Tiktokmusic-API/raw/master/tiktokmusic/${command}.mp3`)
+GlobalTechInc_dev = await getBuffer(`https://github.com/cosmichackerx/Cosmicmusic-API/raw/master/tiktokmusic/${command}.mp3`)
 await GlobalTechInc.sendMessage(m.chat, { audio: GlobalTechInc_dev, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 break
 
