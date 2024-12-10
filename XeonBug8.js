@@ -2269,6 +2269,13 @@ case 'sound163':
 case 'sound164':
 case 'sound165':
 case 'sound166':
+case 'jhol':
+case 'fairytale':
+case 'asikmecnun':
+case 'mazlumserhut':
+case 'aalach':
+case 'kosandra':
+			
 GlobalTechInc_dev = await getBuffer(`https://github.com/cosmichackerx/Cosmicmusic-API/raw/master/tiktokmusic/${command}.mp3`)
 await GlobalTechInc.sendMessage(m.chat, { audio: GlobalTechInc_dev, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 break
